@@ -11,8 +11,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http'
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './_services/in-memory-data.service';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 @NgModule({
-  declarations: [AppComponent, HeroesComponent, HeroDetailComponent, MessagesComponent, DashboardComponent],
+  declarations: [AppComponent, HeroesComponent, HeroDetailComponent, MessagesComponent, DashboardComponent, HeroSearchComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule,HttpClientModule,
 
 // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
